@@ -1,7 +1,9 @@
 ; Discover the largest product of five consecutive digits in the 1000-digit
 ; number.
 (define (f n)
-    (reduce * 1 (l n 5)))
+    (if (= n 0)
+        0
+        (max (reduce * 1 (l n 5)) (f (floor (/ n 10))))))
 (define (l n i)
     (if (= i 0)
         ()
