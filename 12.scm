@@ -1,9 +1,9 @@
 ; What is the value of the first triangle number to have over five hundred divisors?
 (define (g n i)
-    (if (> i (/ n 2))
+    (if (> i (floor (sqrt n)))
         (list n)
         (if (= 0 (remainder n i))
-            (cons i (g n (+ 1 i)))
+            (cons i (cons (/ n i) (g n (+ 1 i))))
             (g n (+ 1 i)))))
 (define (f n i s)
     (if (> (length (g s 1)) n)
