@@ -1,0 +1,12 @@
+; http://projecteuler.net/problem=14
+(define (f n s)
+    (cond ((= 1 n) (cons n s)) 
+          ((even? n) (f (/ n 2) (cons n s)))
+          ((odd? n) (f (+ (* 3 n) 1) (cons n s)))))
+(define (s i n m)
+    (let ((l (length (f i '()))))
+    (cond ((= 1000000 i) n)
+          ((> m l) (s (+ 1 i) n m))
+          (else (s (+ 1 i) i l)))))
+(define (solve)
+    (s 1 0 0))
