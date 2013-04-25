@@ -1,6 +1,11 @@
 # About
-Repo of my solutios to [Project Euler](http://projecteuler.net/) in [Scheme](http://www.gnu.org/software/mit-scheme/).
+Repo of my solutios to [Project Euler](http://projecteuler.net/) in various
+languages including:
+* [Scheme](http://www.gnu.org/software/mit-scheme/);
+* [Lisp](http://www.clisp.org/);
+* [Haskell](http://www.haskell.org/).
 
 # Disclaimer
-I'm using PE to learn mit-scheme, so these solutions may not be as optimal or
-elegant as possible. [I welcome any input](https://github.com/dustingram/euler-scheme/issues/new)!
+I'm using PE to learn these languages, so these solutions may not be as optimal
+or elegant as possible. [I welcome any
+input](https://github.com/dustingram/euler/issues/new)!
