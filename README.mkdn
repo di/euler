@@ -3,9 +3,8 @@ Repo of my solutios to [Project Euler](http://projecteuler.net/) in various
 languages including:
 * [Scheme](http://www.gnu.org/software/mit-scheme/);
 * [Lisp](http://www.clisp.org/);
-* [Haskell](http://www.haskell.org/).
+* [Hy](http://www.hylang.org/).
 
 # Disclaimer
-I'm using PE to learn these languages, so these solutions may not be as optimal
-or elegant as possible. [I welcome any
-input](https://github.com/dustingram/euler/issues/new)!
+Using my answers to cheat at Project Euler will not make you smarter! It will
+just make you a cheater.
